@@ -43,3 +43,57 @@ h6 {
     isolation: isolate;
 }
 /*#endregion*/
+
+#img-section {
+    /*background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);*/
+    background-image: url("../img/photo-1585202900225-6d3ac20a6962.avif");
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#form-section {
+    margin: 4rem;
+}
+
+.blurb-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+}
+
+.blurb {
+    font-weight: bold;
+    font-size: 1.85rem;
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+}
+
+form .blurb {
+    text-align: left;
+}
+
+.form-section {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-family: "Cabin", sans-serif;
+}
