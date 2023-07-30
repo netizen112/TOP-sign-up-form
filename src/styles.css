@@ -76,6 +76,11 @@ body {
     color: rgb(246, 241, 241);
 }
 
+.logo-img {
+    height: 100%;
+    margin: 1rem;
+}
+
 .credit {
     position: absolute;
     bottom: 0;
@@ -172,5 +177,7 @@ button:focus {
 .login-p {
     font-family: "Cabin", sans-serif;
 }
+
+
 
 /*#endregion*/
